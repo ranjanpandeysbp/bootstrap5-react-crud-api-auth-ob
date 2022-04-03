@@ -1,0 +1,10 @@
+.contact-form-container{
+    width: 60vw;
+}
+
+/*Until the screen size is reached 768px keep applying below styling*/
+@media(max-width: 768px){
+    .contact-form-container{
+        width: 88vw;
+    }
+}
